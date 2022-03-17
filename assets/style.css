@@ -1,0 +1,25 @@
+main {
+    width:500px;
+    margin: auto;
+}
+
+.Q-One {
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+    flex-direction: column;
+}
+
+.Q-Two {
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+    flex-direction: column;
+}
+
+.Q-Three {
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+    flex-direction: column;
+}
