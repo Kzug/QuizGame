@@ -23,3 +23,18 @@ main {
     align-items:center; 
     flex-direction: column;
 }
+
+
+.current-question {
+    display: none;
+}
+
+.correct {
+    display: none;
+    color: green;
+}
+
+.wrong {
+    display: none;
+    color: red;
+}

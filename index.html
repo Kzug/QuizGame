@@ -9,15 +9,26 @@
 </head>
 
 <body>
+
+    <header>
+        <button class="start-button">Start Quiz!</button>
+    </header>
+
     <main>
         <div class="current-question">
-            <h3>Sample Question 1<h3>
+            <h3 class = "currentQuestionText">Sample Question 1<h3>
                  <li><button id="answerOne" class="answer">Answer 1</button></li>
                  <li><button id = "answerTwo" class="answer">Answer 2</button></li>
                  <li><button id ="answerThree" class="answer">Answer 3</button></li>
                  <li><button id="answerFour" class="answer">Answer 4</button></li>
         </div>    
+
+        <h1 class = "time"></h1>
     </main>
+
+    <h3 class="correct">Correct!</h3>
+    <h3 class = "wrong">Wrong! You lost 5 seconds!</h3>
+    <h3 class = "highscore">Your Score: <span id = "highscore">0</span></h3>
 
     <script type="text/javascript" src="./assets/script.js"></script>
 </body>
